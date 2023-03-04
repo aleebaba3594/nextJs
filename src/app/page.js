@@ -1,4 +1,3 @@
-import Link from "next/link"
 import ImageOwn from "./forImage/ImageOwn"
 
 export default function Home() {
