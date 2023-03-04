@@ -1,0 +1,55 @@
+
+main entry point app folder k andr layout.js 
+routing k lie app folder k andr page.js
+
+//loading
+loading.js will take place by default in time taken between the route changing.
+name same rkhna h loading to is se route change hony me jo time lge ga to ye loader by default show hoga.
+app folder k andr loading.js rakhny se sab routes ko access hogi loader ki.
+manually change krna h kisi particular route pr to us route me jaa k loading.js alag bnaani hy.
+
+//routing://
+file based routing mechanism.
+
+
+app folder k andr folder ka name and us k bd page.jsx
+app>users>page.js 
+route will be like localhost:3000/users
+
+agr sab componentss me koi comp show krana h like nav to main root layout me body tag k andr {children} se upr uska tag bna dena hy
+is se wo hr comp me show hoga.
+
+agr component ko route ni bnana to us me page.js ki file ni bnae gy.
+
+agar koi aik comp kisi aik or comp k andr show krna hy like footer jo k sirf customers me show krna hy or uska lag comp b bnana hy to 
+customers folder me layout.js ki file bne gi us k andr footer ko import kr lein gy.
+1) customer folder k andr page.js ki file bni q k uska route bnana hy.
+2) layout ki file bni q k customers component ki root entry ye hy or is k andr hm dusry compos ko import ke lein gy.
+3) footer ki file bni q k isko layout me use krna hy.
+
+//dynamic routing
+
+file convention(folder name) [] example [abc]
+is folder k andr page.js file bnani hy ta k route pura bn saky.
+
+//not-found
+make a file named not-found.js in root directory means app folder and where ever want to use it by import from next/navigation and
+call notFound() on condition.
+example in shops route.
+
+//image component
+ by providing direct link of public folder in src of Image we have to just pass / ,it means in public folder.
+ and way is to import pic from directory and provide it to src of Image, just like we do in react.js
+
+
+
+// SEO //
+
+metadata object in main page.js is for SEO purposes and it can be in every component, title will be shown in document title.
+
+// STYLES//
+
+module.css file se hr module ki css alag alag kr skty hain, try krni hy k layout me ni page.js me classes de k module.css
+me styling ho jay.
+cox layout me styling di to us se children pr bhi apply ho jay gi.
+
